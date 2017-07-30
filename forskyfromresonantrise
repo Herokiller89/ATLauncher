@@ -1,0 +1,132 @@
+[30/7/2017 16:21:38 PM] Loading Language: English
+[30/7/2017 16:21:38 PM] Loading Language: English
+[30/7/2017 16:21:38 PM] ATLauncher Version: 3.2.3.7
+[30/7/2017 16:21:38 PM] Operating System: Windows 10
+[30/7/2017 16:21:38 PM] RAM Available: 8109MB
+[30/7/2017 16:21:38 PM] Java Version: Launcher: Java 8 (1.8.0_141), Minecraft: Java 8 (1.8.0_141)
+[30/7/2017 16:21:38 PM] Java Path: C:\Program Files\Java\jre1.8.0_141
+[30/7/2017 16:21:38 PM] 64 Bit Java: true
+[30/7/2017 16:21:38 PM] Launcher Directory: **USERSDIR**
+[30/7/2017 16:21:38 PM] Using Theme: Default Theme by RyanTheAllmighty
+[30/7/2017 16:21:39 PM] Showing splash screen and loading everything
+[30/7/2017 16:21:39 PM] Checking for updated files!
+[30/7/2017 16:21:39 PM] Updates found!
+[30/7/2017 16:21:40 PM] Downloading Launcher File packs.json
+[30/7/2017 16:21:45 PM] Finished downloading updated files!
+[30/7/2017 16:21:45 PM] Loading Language: English
+[30/7/2017 16:21:45 PM] Loading external library authlib-1.5.17.jar to classpath
+[30/7/2017 16:21:45 PM] Loading external library log4j-api-2.0-beta9.jar to classpath
+[30/7/2017 16:21:45 PM] Loading external library log4j-core-2.0-beta9.jar to classpath
+[30/7/2017 16:21:45 PM] Loading external library guava-17.0.jar to classpath
+[30/7/2017 16:21:45 PM] Loading external library commons-io-2.4.jar to classpath
+[30/7/2017 16:21:45 PM] Loading external library commons-lang3-3.3.2.jar to classpath
+[30/7/2017 16:21:47 PM] Checking account UUID's!
+[30/7/2017 16:21:47 PM] Checking For Username Changes
+[30/7/2017 16:21:47 PM] Checking For Username Changes Complete
+[30/7/2017 16:21:47 PM] Launcher finished loading everything
+[30/7/2017 16:21:47 PM] Launcher opening
+[30/7/2017 16:21:47 PM] Made By Bob*
+[30/7/2017 16:21:47 PM] *(Not Actually)
+[30/7/2017 16:21:47 PM] Setting up Bottom Bar
+[30/7/2017 16:21:47 PM] Finished Setting up Bottom Bar
+[30/7/2017 16:21:47 PM] Setting up Tabs
+[30/7/2017 16:21:49 PM] Finished Setting up Tabs
+[30/7/2017 16:21:49 PM] Showing Launcher
+[30/7/2017 16:21:54 PM] Logging into Minecraft!
+[30/7/2017 16:21:54 PM] Trying to login with access token!
+[30/7/2017 16:21:54 PM] Authentication failed
+[30/7/2017 16:21:54 PM] com.mojang.authlib.exceptions.InvalidCredentialsException: Invalid token.
+
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:63)
+
+	at com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication.logInWithToken(YggdrasilUserAuthentication.java:124)
+
+	at com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication.logIn(YggdrasilUserAuthentication.java:53)
+
+	at com.atlauncher.utils.Authentication.login(Authentication.java:80)
+
+	at com.atlauncher.utils.Authentication.login(Authentication.java:59)
+
+	at com.atlauncher.data.Account.login(Account.java:630)
+
+	at com.atlauncher.data.Instance$1.run(Instance.java:1199)
+
+[30/7/2017 16:21:54 PM] Access token is NOT valid! Will attempt to get another one!
+[30/7/2017 16:22:06 PM] Authentication failed
+[30/7/2017 16:22:06 PM] com.mojang.authlib.exceptions.InvalidCredentialsException: Invalid credentials. Invalid username or password.
+
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:63)
+
+	at com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication.logInWithPassword(YggdrasilUserAuthentication.java:72)
+
+	at com.mojang.authlib.yggdrasil.YggdrasilUserAuthentication.logIn(YggdrasilUserAuthentication.java:55)
+
+	at com.atlauncher.utils.Authentication.login(Authentication.java:80)
+
+	at com.atlauncher.data.Account.login(Account.java:660)
+
+	at com.atlauncher.data.Instance$1.run(Instance.java:1199)
+
+[30/7/2017 16:22:06 PM] Invalid credentials. Invalid username or password.
+[30/7/2017 16:22:18 PM] Logging into Minecraft!
+[30/7/2017 16:22:35 PM] Launching pack Yogscast Complete Pack 2.9.3.4-RR-YOGS for Minecraft 1.6.4
+[30/7/2017 16:22:35 PM] Launching Minecraft with the following arguments (user related stuff has been removed): [C:\Program Files\Java\jre1.8.0_141\bin\javaw, -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump, -XX:-OmitStackTraceInFastThrow, -Xms256M, -Xmx4096M, -XX:MetaspaceSize=256M, -Duser.language=en, -Duser.country=US, -Dfml.log.level=INFO, -XX:+UseConcMarkSweepGC, -XX:+CMSIncrementalMode, -XX:-UseAdaptiveSizePolicy, -Djava.library.path=USERSDIR\Instances\somethingpleasework\bin\natives, -cp, USERSDIR\ATLauncher (1).exe;anything;USERSDIR\Instances\somethingpleasework\jarmods\forge-1.6.4-9.11.1.965-universal.jar;USERSDIR\Instances\somethingpleasework\bin\launchwrapper-1.8.jar;USERSDIR\Instances\somethingpleasework\bin\asm-all-4.1.jar;USERSDIR\Instances\somethingpleasework\bin\scala-compiler-2.10.2.jar;USERSDIR\Instances\somethingpleasework\bin\scala-library-2.10.2.jar;USERSDIR\Instances\somethingpleasework\bin\lzma-0.0.1.jar;USERSDIR\Instances\somethingpleasework\bin\jopt-simple-4.5.jar;USERSDIR\Instances\somethingpleasework\bin\liteloader-1.6.4.jar;USERSDIR\Instances\somethingpleasework\bin\codecjorbis-20101023.jar;USERSDIR\Instances\somethingpleasework\bin\codecwav-20101023.jar;USERSDIR\Instances\somethingpleasework\bin\libraryjavasound-20101123.jar;USERSDIR\Instances\somethingpleasework\bin\librarylwjglopenal-20100824.jar;USERSDIR\Instances\somethingpleasework\bin\soundsystem-20120107.jar;USERSDIR\Instances\somethingpleasework\bin\argo-2.25_fixed.jar;USERSDIR\Instances\somethingpleasework\bin\bcprov-jdk15on-1.47.jar;USERSDIR\Instances\somethingpleasework\bin\guava-14.0.jar;USERSDIR\Instances\somethingpleasework\bin\commons-lang3-3.1.jar;USERSDIR\Instances\somethingpleasework\bin\commons-io-2.4.jar;USERSDIR\Instances\somethingpleasework\bin\jinput-2.0.5.jar;USERSDIR\Instances\somethingpleasework\bin\jutils-1.0.0.jar;USERSDIR\Instances\somethingpleasework\bin\gson-2.2.2.jar;USERSDIR\Instances\somethingpleasework\bin\lwjgl-2.9.0.jar;USERSDIR\Instances\somethingpleasework\bin\lwjgl_util-2.9.0.jar;USERSDIR\Instances\somethingpleasework\bin\minecraft.jar, net.minecraft.launchwrapper.Launch, --username, REDACTED, --session, token:REDACTED:a6c3c9491be34da692af553a1abbfd92, --version, 1.6.4, --gameDir, USERSDIR\Instances\somethingpleasework, --assetsDir, USERSDIR\Configs\Resources\virtual\legacy, --width=854, --height=480, --tweakClass=cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, com.mumfrey.liteloader.launch.LiteLoaderTweaker]
+[30/7/2017 16:22:35 PM] Jul 30, 2017 4:22:35 PM net.minecraft.launchwrapper.LogWrapper log
+[30/7/2017 16:22:35 PM] INFO: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[30/7/2017 16:22:35 PM] Jul 30, 2017 4:22:35 PM net.minecraft.launchwrapper.LogWrapper log
+[30/7/2017 16:22:35 PM] INFO: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[30/7/2017 16:22:35 PM] Jul 30, 2017 4:22:35 PM net.minecraft.launchwrapper.LogWrapper log
+[30/7/2017 16:22:35 PM] INFO: Loading tweak class name com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[30/7/2017 16:22:35 PM] Jul 30, 2017 4:22:35 PM net.minecraft.launchwrapper.LogWrapper log
+[30/7/2017 16:22:35 PM] INFO: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[30/7/2017 16:22:36 PM] [INFO] [ForgeModLoader] Forge Mod Loader version 6.4.49.965 for Minecraft 1.6.4 loading
+[30/7/2017 16:22:36 PM] [INFO] [ForgeModLoader] Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_141, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_141
+[30/7/2017 16:22:36 PM] [WARNING] [ForgeModLoader] The coremod universalelectricity.core.UELoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:36 PM] [WARNING] [ForgeModLoader] The coremod cofh.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [INFO] [STDERR] Warning: version of ForgeMultipart-universal-1.6.4-, 1.0.1.268 is newer than request 1.0.0.244
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod worldcore.asm.WCFMLLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod am2.preloader.AM2PreloaderContainer does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [INFO] [ForgeModLoader] AMCore initializing...stand back!  I'm going to try MAGIC!
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod appeng.transformer.AppEngCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [INFO] [ForgeModLoader] [AppEng] Core Init
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod biomesoplenty.asm.BOPFMLLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod denoflionsx.denLib.CoreMod.denLibCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod denoflionsx.DenPipes.Core.DenPipesCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod chylex.java7check.JavaCheckerCoremod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod mekanism.common.asm.LoadingHook does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod micdoodle8.mods.miccore.MicdoodlePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod mcp.mobius.mobiuscore.asm.CoreDescription does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod openblocks.OpenBlocksCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod openeye.CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod openmods.OpenModsCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod denoflionsx.PluginsforForestry.Core.CoreMod.PfFCoreMod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod mrtjp.projectred.compatibility.CompatibilityCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod lumien.randomthings.Transformer.RTLoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod com.dynious.refinedrelocation.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod resonant.core.ResonantPluginLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod tconstruct.preloader.TConstructLoaderContainer does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [INFO] [TCon-Preloader] Scalpel. Suction. Lumber axe. CLEAR! *zap*
+[30/7/2017 16:22:40 PM] [INFO] [TCon-Preloader] Constructing preloader (Modules: [tconstruct.preloader.AccessTransformers, tconstruct.preloader.ASMInterfaceRepair])
+[30/7/2017 16:22:40 PM] [INFO] [TCon-Preloader] Found a properties file. Attempting load...
+[30/7/2017 16:22:40 PM] [INFO] [TCon-Preloader] Loaded properties successfully. Using specified settings.
+[30/7/2017 16:22:40 PM] [WARNING] [ForgeModLoader] The coremod codechicken.core.launch.DepLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[30/7/2017 16:22:40 PM] [INFO] [ForgeModLoader] Calling tweak class com.mumfrey.liteloader.launch.LiteLoaderTweaker
+[30/7/2017 16:22:40 PM] [INFO] [ForgeModLoader] Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[30/7/2017 16:22:40 PM] [INFO] [ForgeModLoader] Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[30/7/2017 16:22:40 PM] [INFO] [ForgeModLoader] Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[30/7/2017 16:22:40 PM] [SEVERE] [ForgeModLoader] Unable to launch
+[30/7/2017 16:22:40 PM] java.util.ConcurrentModificationException
+[30/7/2017 16:22:40 PM] 	at java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+[30/7/2017 16:22:40 PM] 	at java.util.ArrayList$Itr.remove(Unknown Source)
+[30/7/2017 16:22:40 PM] 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:114)
+[30/7/2017 16:22:40 PM] 	at net.minecraft.launchwrapper.Launch.main(Launch.java:27)
+[30/7/2017 16:22:41 PM] Java HotSpot(TM) 64-Bit Server VM warning: Using incremental CMS is deprecated and will likely be removed in a future release
+[30/7/2017 16:22:41 PM] Checking for updated files!
+[30/7/2017 16:22:42 PM] No updates found!
+[30/7/2017 16:22:44 PM] Opening Up ATLauncher GitHub Page
+[30/7/2017 16:23:24 PM] Copied Log to clipboard
